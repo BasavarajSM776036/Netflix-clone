@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  background-image: url(/assets/images/background\ img.jpg);
+  width: 98vw;
+  margin: auto;
+  border-radius: 2c 0px;
+  background-repeat: no-repeat;
+  height: 90vh;
+  position: relative;
+}
+.box {
+  height: 90vh;
+  width: 100%;
+  opacity: 0.7;
+  background-color: black;
+  position: absolute;
+  top: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  max-width: 80vw;
+  justify-content: space-between;
+  margin: auto;
+
+  padding: 10px;
+}
+nav img {
+  color: red;
+  width: 222px;
+}
+.hero {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  flex-direction: column;
+}
+.separation {
+  background-color: gray;
+  height: 9px;
+}
+.signin {
+  background-color: white;
+  height: 45px;
+  width: 100px;
+  font-size: large;
+  border-radius: 20px;
+}
+.signin:hover {
+  transform: scale(1.1); /* Slightly enlarge the image */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+.english {
+  background-color: rgb(112, 110, 110);
+  color: white;
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  font-size: larger;
+  border: 1px solid rgb(83, 77, 77);
+}
+.english:hover {
+  transform: scale(1.1); /* Slightly enlarge the image */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.trending2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.chava1,
+.deva,
+.pushpa,
+.court,
+.dragon,
+.officer {
+  width: 25vh;
+  height: 45vh;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 1px solid black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transition for scaling and shadow */
+}
+
+.chava1 img,
+.deva img,
+.pushpa img,
+.court img,
+.dragon img,
+.officer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+.chava1:hover,
+.deva:hover,
+.pushpa:hover,
+.court:hover,
+.dragon:hover,
+.officer:hover {
+  transform: scale(1.1); /* Slightly enlarge the image */
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.trending h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px;
+  font-size: 49px;
+}
+
+.raju {
+  background: linear-gradient(180deg, #1c1c1c 0%, #0e0e0e 60%, #151414 100%);
+  color: #f5f5f5;
+}
+.reasons h2 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.enjoy {
+  width: 20vw;
+  height: 35vh;
+  border-radius: 15px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #464242;
+}
+.enjoy h3,
+p {
+  margin-left: 35px;
+  color: white;
+  margin-top: 10px;
+}
+.download {
+  width: 20vw;
+  height: 35vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #464242;
+}
+.download h3,
+p {
+  margin-left: 35px;
+  color: white;
+  margin-top: 10px;
+}
+.watch {
+  width: 20vw;
+  height: 35vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #464242;
+}
+.watch h3,
+p {
+  margin-left: 35px;
+  color: white;
+  margin-top: 10px;
+}
+.create {
+  width: 20vw;
+  height: 35vh;
+  border-radius: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #464242;
+}
+.create h3,
+p {
+  margin-left: 35px;
+  color: white;
+  margin-top: 10px;
+}
+.reasons h2 {
+  margin-left: 50px;
+}
+.reason1 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  margin-top: 30px;
+  justify-content: center;
+}
+.feq h2 {
+  margin-left: 65px;
+  margin-top: 30px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.feqbox,
+.feqbox2,
+.feqbox3,
+.feqbox5,
+.feqbox4,
+.feqbox5,
+.feqbox6 {
+  width: 100%;
+  max-width: 80vw;
+  margin-left: 60px;
+  background-color: rgb(39, 37, 37);
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 30px;
+  border: 1px solid rgb(98, 96, 96);
+  cursor: pointer;
+}
+
+.feqbox6:hover,
+.feqbox:hover,
+.feqbox2:hover,
+.feqbox3:hover,
+.feqbox4:hover,
+.feqbox5:hover {
+  transform: scale(1.001); /* Slightly enlarge the image */
+  box-shadow: 0px 10px 10px rgba(48, 47, 47, 0.5); /* Add shadow effect */
+  background-color: rgb(104, 105, 105);
+}
+.email {
+  padding: 10px;
+  margin-top: 40px;
+  width: auto;
+  font-size: 2rem;
+  border-radius: 20px;
+  position: relative;
+  color: white;
+  background-color: rgba(117, 113, 113, 0.2);
+  border-color: aliceblue;
+}
+.getstart {
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  border: 1px solid rgb(99, 92, 92);
+}
+.membership h3 {
+  text-align: center;
+  margin-top: 59px;
+  font-weight: bold;
+}
+.btn {
+  text-align: center;
+}
+footer {
+  color: white;
+  margin-left: 90px;
+  padding: 64px;
+}
+footer a {
+  color: rgb(220, 33, 48);
+}
+.footer {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 100vw;
+  gap: 24px;
+}
+.footer a {
+  font-size: 14px;
+  color: white;
+}
+.engbtn {
+  margin-left: 150px;
+}
+.engbtn h4 {
+  padding: 40px;
+}
